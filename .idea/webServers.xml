@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6042d1bc-5110-4621-ba54-d66c04a07bc3" name="localhost" url="http://192.168.1.2:8080">
+        <fileTransfer port="0" mountedRoot="C:\Users\dell\Desktop\hytj" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
