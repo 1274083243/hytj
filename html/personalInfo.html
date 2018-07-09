@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/personInfo.css">
+</head>
+<body>
+<div class="login_title">
+    <img src="../images/back.png">
+    <span>个人信息</span>
+</div>
+<div class="info_content">
+    <ul>
+        <li>
+            <span>与本人关系</span>
+            <input class="inputStyle" type="text" placeholder="本人"  >
+            <div></div>
+        </li>
+        <li>
+            <span>姓名</span>
+            <input class="inputStyle" type="text" placeholder="请输入姓名">
+            <div></div>
+        </li>
+        <li>
+            <span>性别</span>
+            <div >
+                <label for="man" class="radio">
+                    <span class="radio-bg"></span>
+                    <input type="radio" name="sex" id="man" value="男" /> 男
+                    <span class="radio-on"></span>
+                </label>
+                <label for="woman" class="radio">
+                    <span class="radio-bg"></span>
+                    <input type="radio" name="sex" id="woman" value="女" /> 女
+                    <span class="radio-on"></span>
+                </label>
+            </div>
+
+
+            <div></div>
+        </li>
+        <li>
+            <span>证件类型</span>
+            <select name="card_type" id="">
+                <option value="身份证">身份证</option>
+                <option value="其他">其他</option>
+            </select>
+        </li>
+        <li>
+            <span>证件号</span>
+            <input class="inputStyle" type="text" placeholder="请输入证件号" >
+        </li>
+        <li>
+            <span>手机号</span>
+            <span class="phone_num">111111111111</span>
+        </li>
+    </ul>
+    <span class="save_btn">保存</span>
+</div>
+</body>
+</html>
